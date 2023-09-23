@@ -12,7 +12,6 @@ export default {
 			precompress: false,
 			strict: true,
 		}),
-		trailingSlash: 'always',
 		paths: {
 			base: dev ? '' : process.env.BASE_PATH,
 		}
