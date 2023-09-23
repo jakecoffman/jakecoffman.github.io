@@ -24,7 +24,7 @@ jobs:
       - name: build
         env:
           # used in svelte.config.js
-          BASE_PATH: '/'
+          BASE_PATH: ''
         run: |
           npm run build
 
